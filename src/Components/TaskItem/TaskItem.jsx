@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteTask, toggleComplete } from "../../redux/tasksSlice";
+import { deleteTask, toggleComplete } from "../../redux/action";
 import "./TaskItem.scss";
 
 const TaskItem = ({ task }) => {
