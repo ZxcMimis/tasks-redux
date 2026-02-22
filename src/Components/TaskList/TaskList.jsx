@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { StatusFilters } from "../../redux/costant";
+import { StatusFilters } from "../../redux/constant";
 import TaskItem from "../TaskItem/TaskItem";
 import "./TaskList.scss";
 
